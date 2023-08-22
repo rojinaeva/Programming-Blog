@@ -1,0 +1,39 @@
+[
+    {
+      "blog_id": 1,
+      "blog_cover_image": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2dyYW1taW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "author_name": "Alex Carter",
+      "author_image": "https://plus.unsplash.com/premium_photo-1664536392896-cd1743f9c02c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+      "blog_title": "Mastering Data Structures: A Comprehensive Guide",
+      "blog_written_date": "2023-08-15",
+      "blog_read_time": "12 minutes"
+    },
+    {
+      "blog_id": 2,
+      "blog_cover_image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=872&q=80",
+      "author_name": "Sara Miller",
+      "author_image": "https://images.unsplash.com/photo-1491349174775-aaafddd81942?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+      "blog_title": "Debugging Techniques for Efficient Code",
+      "blog_written_date": "2023-08-18",
+      "blog_read_time": "8 minutes"
+    },
+    {
+      "blog_id": 3,
+      "blog_cover_image": "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "author_name": "Chris Evans",
+      "author_image": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHBlcnNvbnxlbnwwfHwwfHx8MA%3D",
+      "blog_title": "Web Development Trends to Watch in 2023",
+      "blog_written_date": "2023-08-20",
+      "blog_read_time": "10 minutes"
+    },
+    {
+      "blog_id": 4,
+      "blog_cover_image": "https://images.unsplash.com/photo-1624953587687-daf255b6b80a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+      "author_name": "Emily Johnson",
+      "author_image": "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cGVyc29ufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "blog_title": "Python vs. JavaScript: Choosing the Right Language",
+      "blog_written_date": "2023-08-22",
+      "blog_read_time": "15 minutes"
+    }
+  ]
+  

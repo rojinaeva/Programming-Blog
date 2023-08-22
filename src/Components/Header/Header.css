@@ -1,0 +1,29 @@
+.header{
+    height: 85px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background: gainsboro;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h6{
+    color: rgb(28, 196, 196);
+    font-family: Impact, fantasy;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    margin:0;
+    
+}
+
+.header a{
+    text-decoration: none;
+    padding:1rem;
+    border-radius:20px;
+    color: currentColor;
+}
+.header a:hover{
+    color:whitesmoke;
+    background-color:rgb(173, 164, 164);
+}
