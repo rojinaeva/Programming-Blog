@@ -1,0 +1,93 @@
+.blog-container{
+    width:845px;
+    background: #FFF;
+    margin-bottom: 40px;
+    background-color: rgb(224, 210, 210);
+}
+.blog-container img{
+    width:845px;
+    height:450px;
+    margin-bottom: 34px;
+}
+.author-bookmark-info{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.author{
+    display: flex;
+    align-items: center;
+}
+.author-info{
+    display: flex;
+    flex-direction: column;
+}
+.author img{
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    margin-right: 24px;
+    margin-bottom:18px;
+}
+.author span{
+    margin:0;
+    color: #111;
+    font-family: Exo 2;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    
+}
+.author p{
+    color: rgba(17, 17, 17, 0.60);
+    font-family: Exo 2;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    margin:0;
+}
+.bookmark{
+    display: flex;
+    align-items: center;
+}
+.bookmark p{
+    color: rgba(17, 17, 17, 0.60);
+    text-align: right;
+    font-family: Exo 2;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    margin-right: 5px;
+}
+.blog-title{
+    width:737px;
+    color: #111;
+    font-family: Exo 2;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top:0;
+    margin-bottom: 16px;
+}
+.blog-start span{
+    color: rgba(17, 17, 17, 0.60);
+    font-family: Exo 2;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    padding-right: 16px;
+    
+}
+.mark-btn{
+    margin-top: 21px;
+    color: currentColor;
+    background-color:rgb(173, 164, 164);
+    
+    
+}
+.mark-btn:hover{
+    color:currentColor;
+    background-color: rgb(110, 104, 104);
+    
+
+}

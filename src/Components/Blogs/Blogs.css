@@ -1,0 +1,10 @@
+.programming-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap:25px;
+    margin-top: 40px;
+}
+
+.bookmark-container{
+    border:1px solid gray;
+}
