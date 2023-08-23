@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Blogs.css'
 import Blog from '../Blog/Blog';
 import Bookmark from '../Bookmark/Bookmark';
+import { addToDb } from '../../../utilities/fakeDb';
 
 
 const Blogs = () => {
@@ -19,6 +20,13 @@ const Blogs = () => {
     const newBookmark=[...bookmark,blog];
     setBookmark(newBookmark);
    }
+
+   const handleBookmark=(blog)=>{
+    const newBookmark=[...bookmark,blog];
+    setBookmark(newBookmark);
+    addToDb(blog.blog_id);
+
+   }
     return (
         <div className='programming-container'>
             <div className='blogs-container'>
@@ -26,7 +34,8 @@ const Blogs = () => {
                 blogs.map(blog=><Blog
                 key={blog.blog_id}
                 blog={blog}
-                handleMarkAsRead={handleMarkAsRead}></Blog>)
+                handleMarkAsRead={handleMarkAsRead}
+                handleBookmark={handleBookmark}></Blog>)
               }
             </div>
             <div className='bookmark-container'>

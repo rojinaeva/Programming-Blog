@@ -8,6 +8,7 @@ const Blog = (props) => {
     const {blog_cover_image,author_image,author_name,blog_title
 ,blog_written_date,blog_read_time}=props.blog;
 const handleMarkAsRead=props.handleMarkAsRead;
+const handleBookmark=props.handleBookmark;
     return (
         <div className='blog-container'>
             <img src={blog_cover_image} alt="" />
@@ -22,7 +23,7 @@ const handleMarkAsRead=props.handleMarkAsRead;
                 </div>
                 <div className='bookmark'>
                    <p>{blog_read_time}min read</p>
-                   <span><FontAwesomeIcon icon={faBookmark} /></span>
+                   <span onClick={()=>handleBookmark(props.blog)} ><FontAwesomeIcon icon={faBookmark} /></span>
                 </div>
             </div>
             <p className='blog-title'>{blog_title}</p>
