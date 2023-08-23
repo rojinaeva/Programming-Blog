@@ -9,6 +9,7 @@ const Blog = (props) => {
 ,blog_written_date,blog_read_time}=props.blog;
 const handleMarkAsRead=props.handleMarkAsRead;
 const handleBookmark=props.handleBookmark;
+
     return (
         <div className='blog-container'>
             <img src={blog_cover_image} alt="" />
@@ -31,7 +32,7 @@ const handleBookmark=props.handleBookmark;
                 <span>#beginners</span>
                 <span>#programming</span>
             </div>
-            <button onClick={()=>handleMarkAsRead(props.blog)} className='mark-btn'>Mark as read</button>
+            {/* <button onClick={()=>handleMarkAsRead(props.blog)} className='mark-btn'>Mark as read</button> */}
         </div>
     );
 };

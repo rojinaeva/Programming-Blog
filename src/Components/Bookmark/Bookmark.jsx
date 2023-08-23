@@ -6,9 +6,19 @@ const Bookmark = (props) => {
     const bookmark=props.bookmark;
     let totalReadTime=0;
     let totalBlog=0;
+    // const titles = [];
+   
     for(const blog of bookmark){
+      blog.quantity=blog.quantity||1;
+      
       totalReadTime=totalReadTime+blog.blog_read_time;
       totalBlog=totalBlog+blog.quantity;
+      // for (let i = 1; i === totalBlog; i++) {
+      //   titles.push(blog.blog_title);
+      // }
+      
+    
+      
     }
 
     return (
