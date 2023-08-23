@@ -32,7 +32,7 @@ const handleBookmark=props.handleBookmark;
                 <span>#beginners</span>
                 <span>#programming</span>
             </div>
-            {/* <button onClick={()=>handleMarkAsRead(props.blog)} className='mark-btn'>Mark as read</button> */}
+            <button onClick={()=>handleMarkAsRead(props.blog)} className='mark-btn'>Mark as read</button>
         </div>
     );
 };
