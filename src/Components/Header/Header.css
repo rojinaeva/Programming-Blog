@@ -1,4 +1,4 @@
-.header{
+/* .header{
     height: 85px;
     padding-left: 80px;
     padding-right: 80px;
@@ -26,4 +26,58 @@
 .header a:hover{
     color:whitesmoke;
     background-color:rgb(173, 164, 164);
+} */
+
+
+.header {
+    height: 85px;
+    padding: 0 15px; /* Adjust padding for smaller screens */
+    background: gainsboro;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h6 {
+    color: rgb(28, 196, 196);
+    font-family: Impact, fantasy;
+    font-size: 24px; /* Adjust font size for smaller screens */
+    font-style: normal;
+    font-weight: 600;
+    margin: 0;
+}
+
+.header .menu {
+    display: flex; /* Hide the menu by default for mobile screens */
+}
+
+.header a {
+    text-decoration: none;
+    padding: 0.5rem 1rem; /* Adjust padding for smaller screens */
+    border-radius: 20px;
+    color: currentColor;
+    display: block; /* Ensure the links take full width on mobile */
+}
+
+/* Media query for screens with max width of 768px (adjust as needed) */
+@media (max-width: 768px) {
+    .header {
+        padding: 0 10px; /* Further reduce padding for smaller screens */
+    }
+
+    .header h6 {
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
+
+    .header .menu {
+        display: flex; /* Show the menu for mobile screens */
+    }
+
+    .header a {
+        padding: 0.5rem; /* Adjust padding for mobile screens */
+    }
+
+    .header a:hover {
+        background-color: rgb(173, 164, 164);
+    }
 }

@@ -1,31 +1,22 @@
-.bookmark-blogs{
-    border-radius: 8px;
-    background: rgba(17, 17, 17, 0.05);
-    padding:30px;
-    position: sticky;
-    top:95px;
-    height: fit-content;
-}
-.bookmark-blog-title{
-    color: #111;
-    font-family: Exo 2;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    margin-bottom: 16px;
-    
-}
-.blog-title-container{
-    background-color: whitesmoke;
+.bookmark-container{
   border-radius: 8px;
+  background: rgba(17, 17, 17, 0.05);
+  text-align: center;
+  position: sticky;
+  top:100px;
+  padding-bottom: 30px;
 }
-.blog-title-container p{
-    background-color: white;
-  width: fit-content;
+.content{
+  border-radius: 8px;
+  background:whitesmoke;
+ 
+}
+.content p{
+  border-radius: 8px;
+  background: #FFF;
+  width:fit-content;
   height: fit-content;
-  border-radius: 8px;
   margin: 2rem;
+  
 }
-
-
     

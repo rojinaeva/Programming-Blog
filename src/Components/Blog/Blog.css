@@ -1,9 +1,10 @@
 .blog-container{
-    width:845px;
+    width:845px ;   
     background: #FFF;
     margin-bottom: 40px;
     background-color: rgb(224, 210, 210);
 }
+
 .blog-container img{
     width:845px;
     height:450px;

@@ -11,15 +11,19 @@ const Bookmark = (props) => {
       titles.push(blog.blog_title);
       totalBlog=totalBlog+blog.quantity;
       }
-       
+      // <p>{[...new Set(titles)]}</p>.....it is for (not duplicate elements)
     
     return (
-        <div className='bookmark-blogs'>
-          <p className='bookmark-blog-title'>Bookmarked Blogs :{totalBlog} </p>
-          <div className='blog-title-container'>
-             <p>{[...new Set(titles)]}</p>
-              
-          </div>
+        <div className='bookmark-container'>
+           <h2>Bookmarked Blogs : {totalBlog}</h2>
+           <div className='content'>
+               {
+               titles.map((title, index) => (
+           <p key={index}>{title}</p>
+                          )
+                       )
+          }
+    </div>
             
         </div>
     );

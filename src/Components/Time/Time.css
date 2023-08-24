@@ -1,21 +1,15 @@
-.bookmark-time{
-    position:sticky;
-    top:0;
+.time-container{
     border-radius: 8px;
     border: 1px solid #6047EC;
-    background: rgba(96, 71, 236, 0.10);
-    display: flex; 
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 24px;
-    
+    background-color: #b2bad3;
+    text-align: center;
+    position: sticky;
+    top:0;
+    margin-bottom: 20px;
 }
 .read-time{
-    margin:20px 50px;
     color: #6047EC;
     font-family: Exo 2;
     font-size: 24px;
-    font-style: normal;
     font-weight: 700;
-    
 }

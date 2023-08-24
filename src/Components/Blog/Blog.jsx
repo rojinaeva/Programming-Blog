@@ -3,6 +3,7 @@ import './Blog.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faBookmark} from '@fortawesome/free-solid-svg-icons'
 
+
 const Blog = (props) => {
     // console.log(props.blog);
     const {blog_cover_image,author_image,author_name,blog_title
@@ -25,6 +26,7 @@ const handleBookmark=props.handleBookmark;
                 <div className='bookmark'>
                    <p>{blog_read_time}min read</p>
                    <span onClick={()=>handleBookmark(props.blog)} ><FontAwesomeIcon icon={faBookmark} /></span>
+                   
                 </div>
             </div>
             <p className='blog-title'>{blog_title}</p>

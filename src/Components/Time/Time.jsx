@@ -11,7 +11,7 @@ const Time = (props) => {
     }
 
     return (
-        <div className='bookmark-time'>
+        <div className='time-container'>
             <p className='read-time'>
                 Spend time on read : {totalReadTime}
             </p>

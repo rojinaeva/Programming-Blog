@@ -4,6 +4,8 @@ import Blog from '../Blog/Blog';
 import Bookmark from '../Bookmark/Bookmark';
 import { addToDb, getBookmark } from '../../../utilities/fakeDb';
 import Time from '../Time/Time';
+import {  toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const Blogs = () => {
@@ -42,14 +44,22 @@ const Blogs = () => {
     setTime(newTime);
    }
 
-  const handleBookmark=(blog)=>{
-    const newBookmark=[...bookmark,blog];
-    setBookmark(newBookmark);
-  }
+   const handleBookmark = (blog) => {
+    const exist = bookmark.find((bm) => bm.id === blog.blog_id);
+    
+    if (exist) {
+      toast.error('Already bookmarked');
+     
+    } else {
+      toast.success('Added to bookmarks');
+      setBookmark([...bookmark, blog]);
+    }
+  };
+  
 
     return (
         <div className='programming-container'>
-            <div className='blogs-container'>
+            <div>
               {
                 blogs.map(blog=><Blog
                 key={blog.blog_id}
@@ -58,9 +68,10 @@ const Blogs = () => {
                 handleBookmark={handleBookmark}></Blog>)
               }
             </div>
-            <div className='bookmark-container'>
+            <div>
                <Time time={time}></Time>
                <Bookmark bookmark={bookmark}></Bookmark>
+               
             </div>
         </div>
     );
